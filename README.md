@@ -1,22 +1,12 @@
-# Investigación Operativa — Segundo Parcial · UADE 2026
+# Investigación Operativa — Segundo Parcial
 
-Portal de estudio en HTML/CSS, preparado para GitHub Pages.
+Portal web estático, con estilos **incluidos dentro de cada archivo HTML** para evitar errores de CSS en GitHub Pages.
 
 ## Publicar
 
-1. Subir el contenido de esta carpeta a la raíz de un repositorio GitHub.
-2. Ir a **Settings → Pages → Deploy from a branch → main / (root)**.
-3. Abrir `https://TU_USUARIO.github.io/NOMBRE_REPO/`.
+1. Descomprimir el ZIP.
+2. Subir **todos los archivos y la carpeta `material-original`** a la raíz del repositorio (no subir el ZIP).
+3. En GitHub: Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
+4. Esperar a que GitHub indique que el sitio está publicado y recargar con `Ctrl+Shift+R` (Mac: `Cmd+Shift+R`).
 
-## Contenido
-
-- `index.html`: índice navegable.
-- `inventarios.html`: EOQ y variantes.
-- `colas.html`: modelos de espera.
-- `decisiones.html`: decisiones con y sin probabilidades.
-- `simulacion.html`: Monte Carlo y servidores.
-- `formulario.html`: guía de selección de fórmulas.
-- `practica.html`: ejercicios y respuestas desplegables.
-- `material-original/`: archivos originales proporcionados.
-
-**Nota:** esta es una primera versión de estudio. Revisar enunciados originales cuando contengan símbolos u otros datos no extraídos del DOCX.
+No necesita npm, Node.js, servidor ni compilación.
